@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="home bg-grey rounded p-1 cursor">
+          <div class="logo invert">
+            <img src="assets/logo.svg" alt="logo" />
+          </div>
+          <ul>
+            <li>
+              <img
+                class="invert roboto-medium"
+                src="assets/home.svg"
+                alt="home"
+              />Home
+            </li>
+            <li>
+              <img
+                class="invert roboto-medium"
+                src="assets/search.svg"
+                alt="search"
+              />Search
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded p-1">
+          <div class="header flex">
+            <img
+              class="invert roboto-medium"
+              src="assets/library.svg"
+              alt="library"
+            />
+            <h4>Your Library</h4>
+          </div>
+          <div class="footer flex">
+            <div class="legal">
+              <a href="https://www.spotify.com/in-en/legal/end-user-agreement/"
+                ><span>Legal</span></a
+              >
+            </div>
+            <div class="safety">
+              <a
+                href="https://www.spotify.com/in-en/safetyandprivacy/reporting-content"
+                ><span>Safety & Privacy Center</span></a
+              >
+            </div>
+            <div class="privacy">
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div class="cookies">
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div class="ads">
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div class="accessibility">
+              <a href="https://www.spotify.com/in-en/accessibility"
+                ><span>Accessibility</span></a
+              >
+            </div>
+            <div class="cookies">
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded">
+        <div class="top flex">
+            <div class="nav flex invert">
+                <img src="assets/arrow-left-01-stroke-rounded.svg" alt="left">
+                <img src="assets/arrow-right-01-stroke-rounded.svg" alt="right">
+                </div>
+                <div class="buttons flex">
+                    <button class="SignUp cursor">Sign up</button>
+                    <button class="Login cursor">Log in</button>
+                </div>
+        </div>
+        <div class="spotify">
+            <h3>Popular Albums</h3>
+            <div class="albums flex">
+            <div class="card cursor">
+                <img class = "img margin rounded" src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9" alt="album">
+                <img class="play" src="assets/play.svg" alt="play">
+                <h4 class = "margin">ANIMAL</h4>
+                <h5 class = "margin">Manan Bhardwaj,Vishal Mishra,Jaani</h5>
+            </div>
+            <div class="card cursor">
+                <img class = "img margin rounded" src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9" alt="album">
+                <img class ="play" src="assets/play.svg" alt="play">
+                <h4 class = "margin">ANIMAL</h4>
+                <h5 class = "margin">Manan Bhardwaj,Vishal Mishra,Jaani</h5>
+            </div>
+        </div>
+        </div>
+        <div class="songbar">
+            <div class="controls">
+            <img src="assets/prevsong.svg" alt="previous">
+            <img src="assets/playbtn.svg" alt ="play">
+            <img src ="assets/nextsong.svg" alt = "back">
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
